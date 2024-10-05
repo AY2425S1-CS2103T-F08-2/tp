@@ -15,16 +15,16 @@ import seedu.researchroster.commons.util.ConfigUtil;
 import seedu.researchroster.commons.util.StringUtil;
 import seedu.researchroster.logic.Logic;
 import seedu.researchroster.logic.LogicManager;
-import seedu.researchroster.model.ReadOnlyResearchRoster;
-import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.Model;
 import seedu.researchroster.model.ModelManager;
 import seedu.researchroster.model.ReadOnlyUserPrefs;
+import seedu.researchroster.model.ReadOnlyResearchRoster;
+import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.UserPrefs;
 import seedu.researchroster.model.util.SampleDataUtil;
 import seedu.researchroster.storage.JsonResearchRosterStorage;
-import seedu.researchroster.storage.ResearchRosterStorage;
 import seedu.researchroster.storage.JsonUserPrefsStorage;
+import seedu.researchroster.storage.ResearchRosterStorage;
 import seedu.researchroster.storage.Storage;
 import seedu.researchroster.storage.StorageManager;
 import seedu.researchroster.storage.UserPrefsStorage;
@@ -68,9 +68,12 @@ public class MainApp extends Application {
     }
 
     /**
-     * Returns a {@code ModelManager} with the data from {@code storage}'s researchroster book and {@code userPrefs}. <br>
-     * The data from the sample researchroster book will be used instead if {@code storage}'s researchroster book is not found,
-     * or an empty researchroster book will be used instead if errors occur when reading {@code storage}'s researchroster book.
+     * Returns a {@code ModelManager} with the data from {@code storage}'s
+     * researchroster book and {@code userPrefs}. <br>
+     * The data from the sample researchroster book will be used
+     * instead if {@code storage}'s researchroster book is not found,
+     * or an empty researchroster book will be used instead if
+     * errors occur when reading {@code storage}'s researchroster book.
      */
     private Model initModelManager(Storage storage, ReadOnlyUserPrefs userPrefs) {
         logger.info("Using data file : " + storage.getAddressBookFilePath());

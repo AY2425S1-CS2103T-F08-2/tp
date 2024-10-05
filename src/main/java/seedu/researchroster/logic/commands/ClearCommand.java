@@ -2,8 +2,8 @@ package seedu.researchroster.logic.commands;
 
 import static java.util.Objects.requireNonNull;
 
-import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.Model;
+import seedu.researchroster.model.ResearchRoster;
 
 /**
  * Clears the researchroster book.
