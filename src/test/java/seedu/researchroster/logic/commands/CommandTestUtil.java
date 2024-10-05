@@ -15,8 +15,8 @@ import java.util.List;
 
 import seedu.researchroster.commons.core.index.Index;
 import seedu.researchroster.logic.commands.exceptions.CommandException;
-import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.Model;
+import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.person.NameContainsKeywordsPredicate;
 import seedu.researchroster.model.person.Person;
 import seedu.researchroster.testutil.EditPersonDescriptorBuilder;

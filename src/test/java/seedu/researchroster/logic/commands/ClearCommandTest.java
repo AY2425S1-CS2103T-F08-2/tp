@@ -5,9 +5,9 @@ import static seedu.researchroster.testutil.TypicalPersons.getTypicalAddressBook
 
 import org.junit.jupiter.api.Test;
 
-import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.Model;
 import seedu.researchroster.model.ModelManager;
+import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.UserPrefs;
 
 public class ClearCommandTest {

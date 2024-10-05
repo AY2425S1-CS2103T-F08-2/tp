@@ -18,10 +18,10 @@ import javafx.collections.ObservableList;
 import seedu.researchroster.commons.core.GuiSettings;
 import seedu.researchroster.logic.Messages;
 import seedu.researchroster.logic.commands.exceptions.CommandException;
-import seedu.researchroster.model.ReadOnlyResearchRoster;
-import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.Model;
+import seedu.researchroster.model.ReadOnlyResearchRoster;
 import seedu.researchroster.model.ReadOnlyUserPrefs;
+import seedu.researchroster.model.ResearchRoster;
 import seedu.researchroster.model.person.Person;
 import seedu.researchroster.testutil.PersonBuilder;
 
